@@ -1,0 +1,163 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+  body {
+    width: 95%;
+    height: 1vh;
+    overflow: scroll;
+    font-family:'Oswald';
+    font-style: normal;
+    margin: auto;
+   
+  }
+
+  /* homepage stying starts here */
+
+  nav {
+    width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    align-items:center ;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+  }
+
+  .nav-btn {
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333136;
+
+  }
+
+  .awardWinningSection {
+ 
+    display:flex;
+    flex-direction: column;
+    color:#ffffff ;
+    background-color:#e7816b;
+    border-radius: 5px;
+    height: max-content;
+    padding-top: 20px;
+  }
+
+  .awardWinningCustoms-container {
+    width: 65%;
+    height: max-content;
+    margin: auto;
+  }
+
+  h1 {
+    font-weight:lighter;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .awardWinningCustoms-container-p {
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .awardWinning-btn {
+    display: block;
+    background-color:#ffffff;
+    height: 52px;
+    width:max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    border: 0;
+    font-size: 15px;
+    margin: auto;
+  }
+
+  .Frame {
+    height: 300px;
+    margin: auto;
+  }
+
+  .homepage-projects-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    height: max-content;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .homepage-projects-container {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-image:url(./assets/home/tablet/image-web-design.jpg );
+    background-color: black;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height:200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  
+  }
+
+  .homepage-projects-container-2 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-image:url(./assets/home/tablet/image-app-design.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height:200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  
+ 
+  }
+
+  .homepage-projects-container-3 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-image:url(./assets/home/tablet/image-graphic-design.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height:200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .homepage-project-text {
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+  }
+
+  h2 {
+    margin: auto;
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .homepage-project-btn {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+   
+  }
+
+  span {
+    color: #e7816b;
+    font-size: 13px;
+  }
