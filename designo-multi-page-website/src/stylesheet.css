@@ -185,7 +185,11 @@
 
   p {
     font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
   }
+
 .homepage-about-us-icon {
   margin: auto;
   margin-bottom: 10px;
@@ -209,3 +213,26 @@
     border-radius: 50%;
     align-self: center;
   }
+
+.lets-talk-container {
+
+  background-color: #e7816b;
+  color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ h3 {
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+ }
+
+ .lets-talk-p {
+  font-size: 15px;
+ }
