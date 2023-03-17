@@ -161,3 +161,51 @@
     color: #e7816b;
     font-size: 13px;
   }
+
+  .about-us-homepage-container {
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about-us-homepage-text {
+    color:#333136;
+    margin: auto;
+  }
+
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+.homepage-about-us-icon {
+  margin: auto;
+  margin-bottom: 10px;
+  
+}
+#passionate-svg {
+  margin: auto;
+  background:linear-gradient(#979797,#ffffff) ;
+  border-radius: 50%;
+  align-self: center;
+}
+#resourceful-svg {
+  margin: auto;
+  background:linear-gradient(#979797,#ffffff) ;
+  border-radius: 50%;
+  align-self: center;
+}
+  #friendly-svg {
+    margin: auto;
+    background:linear-gradient(#979797,#ffffff) ;
+    border-radius: 50%;
+    align-self: center;
+  }
