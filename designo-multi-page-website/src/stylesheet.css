@@ -2,7 +2,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
   body {
-    width: 95%;
     height: 1vh;
     overflow: scroll;
     font-family:'Oswald';
@@ -14,7 +13,7 @@
   /* homepage stying starts here */
 
   nav {
-    width:100%;
+    width:85%;
     height: 40px;
     display: flex;
     justify-content: space-around;
@@ -31,6 +30,7 @@
     text-align: center;
     font-size: 14px;
     color: #333136;
+    
 
   }
 
@@ -40,9 +40,11 @@
     flex-direction: column;
     color:#ffffff ;
     background-color:#e7816b;
-    border-radius: 5px;
+    border-radius: 25px;
     height: max-content;
     padding-top: 20px;
+    width: 95%;
+    margin: auto;
   }
 
   .awardWinningCustoms-container {
@@ -86,9 +88,10 @@
   .homepage-projects-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     height: max-content;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
   }
@@ -102,7 +105,7 @@
     background-repeat: no-repeat;
     object-fit: fill;
     height:200px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 15px;
   
   }
@@ -116,7 +119,7 @@
     background-repeat: no-repeat;
     object-fit: fill;
     height:200px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 15px;
   
  
@@ -131,7 +134,7 @@
     background-repeat: no-repeat;
     object-fit: fill;
     height:200px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 15px;
   }
 
@@ -221,18 +224,77 @@
   width: 90%;
   border-radius: 10px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  position: relative;
+  z-index: 1;
 }
+
  h3 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: normal;
   text-align: center;
-  width: 60%;
+  width: 70%;
   margin: auto;
   padding-bottom: 10px;
  }
 
  .lets-talk-p {
-  font-size: 15px;
+  font-size: 16px;
+  width: 60%;
+  margin-bottom: 30px;
  }
+
+ .getInTouchBtn {
+  width: 152px;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+ }
+
+ footer {
+  background-color: #333136;
+  color: #ffffff;
+  height: max-content;
+  padding-top: 100px;
+  position: absolute;
+  width: 100%;
+
+ }
+
+ .footer-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  align-items: center;
+  
+ }
+
+ .footer-h1 {
+  font-size: 24px;
+  float: left;
+  
+}
+
+.footer-nav-btn-container {
+  float: right;
+  width: 55%;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-around;
+
+
+}
+
+.footer-btn {
+  font-size: 14px;
+  width: max-content;
+  margin-right: 10px;
+  color: #ffffff;
+  background-color: transparent;
+  border:none;
+}
