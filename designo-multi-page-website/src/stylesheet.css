@@ -141,7 +141,7 @@
   .homepage-project-text {
     width: fit-content;
     margin: auto;
-    align-items: center;
+   text-align: center;
   }
 
   h2 {
@@ -224,9 +224,9 @@
   width: 90%;
   border-radius: 10px;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: -100px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-bottom: -70px;
   position: relative;
   z-index: 1;
 }
@@ -260,7 +260,6 @@
   background-color: #333136;
   color: #ffffff;
   height: max-content;
-  padding-top: 100px;
   position: absolute;
   width: 100%;
 
@@ -268,33 +267,68 @@
 
  .footer-nav {
   display: flex;
-  justify-content: space-around;
-  margin-top: 150px;
+  justify-content:space-around;
   align-items: center;
-  
+  flex-flow: row wrap;
+  margin: auto;
+  margin-top: 90px;
+  width: 95%;
  }
 
  .footer-h1 {
   font-size: 24px;
   float: left;
+  text-align: center;
+  width: 30%;
   
 }
 
 .footer-nav-btn-container {
+  display: flex;
+  flex-flow: row wrap;
   float: right;
-  width: 55%;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: space-around;
-
+  justify-content:space-between;
+  text-align: center;
+  margin: auto;
 
 }
 
 .footer-btn {
   font-size: 14px;
+  text-align: center;
   width: max-content;
   margin-right: 10px;
   color: #ffffff;
   background-color: transparent;
   border:none;
+}
+
+.footer-bottom-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  width: max-content;
+  font-size: 14px; 
+}
+
+.footer-icon-container {
+  width: max-content;
+  float:right ;
+  
+}
+.footer-icon-btn {
+  text-decoration: none;
+  color: #e7816b;
+  background-color: transparent;
+  border: none;
 }
