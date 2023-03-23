@@ -22,6 +22,10 @@
     padding-bottom: 30px; 
   }
 
+  .brandLogo {
+    text-decoration: none;
+    color: #333136;
+  }
   .nav-btn {
     background-color: transparent;
     border: 0;
@@ -105,6 +109,9 @@
     height:200px;
     border-radius: 15px;
     margin-bottom: 15px;
+    width: 90%;
+    margin: auto;
+
   
   }
 
@@ -119,7 +126,9 @@
     height:200px;
     border-radius: 15px;
     margin-bottom: 15px;
-  
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
  
   }
 
@@ -134,8 +143,16 @@
     height:200px;
     border-radius: 15px;
     margin-bottom: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
   .homepage-project-text {
     width: fit-content;
     margin: auto;
@@ -349,3 +366,75 @@ h5 {
   font-size: 14px;
   margin-bottom: 0px;
 }
+
+/* ..............................
+..............
+
+END OF HOMEPAGE STYLING
+................
+..............................  */
+
+
+
+/* ..............................
+..............
+
+INNER-PAGE STYLING BEGINS
+................
+..............................  */
+
+
+.service-header-container {
+  height: max-content;
+  background-color: #e7816b;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.service-h1 {
+  font-size:32px;
+}
+
+.service-p {
+ font-size: 15px;
+ width: 90%; 
+}
+
+.project-showcase-section {
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.project-showcase-container {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  border-radius: 10px 10px 0px 0px ;
+  margin: auto;
+  margin-top: 20px;
+  height:max-content;
+  margin-bottom: 30px;
+  
+}
+
+.project-img {
+  width: 350px;
+  height: 320px;
+  object-fit: contain;
+  border-radius: 30px 30px 0px 0px ;
+  margin: auto;
+  
+}
+
+.project-text {
+  background-color: #FDF3F0;
+  text-align: center;
+  padding: 10px;
+  width: 330px;
+  margin: auto;
+}
+
