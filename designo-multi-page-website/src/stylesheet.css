@@ -126,10 +126,10 @@
     object-fit: fill;
     height:200px;
     border-radius: 15px;
-    margin-bottom: 15px;
     width: 90%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 15px;
  
   }
 
@@ -243,7 +243,7 @@
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: -70px;
+  margin-bottom: -130px;
   position: relative;
   z-index: 1;
 }
@@ -274,7 +274,7 @@
  }
 
  footer {
-  background-color: #333136;
+  background-color: #1d1c1e;
   color: #ffffff;
   height: max-content;
   position: absolute;
@@ -288,9 +288,8 @@
   flex-direction: column;
   justify-content:space-around;
   align-items: center;
-
   margin: auto;
-  margin-top: 90px;
+  margin-top: 150px;
   width: 95%;
  }
 
