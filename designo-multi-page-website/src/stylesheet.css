@@ -36,7 +36,10 @@
     
 
   }
+.contact-link {
+  color: black;
 
+}
   .awardWinningSection {
  
     display:flex;
@@ -451,3 +454,67 @@ INNER-PAGE STYLING BEGINS
   padding: 5px;
   padding-bottom: 20px;
 }
+  /* 
+   ABOUT PAGE STYLING STARTS HERE  
+  */
+.about-text {
+  height: max-content;
+  background-color: #e7816b;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin-top: -5px;
+}
+
+.contact-img {
+  width: 100%;
+  height: 320px;
+  object-fit:cover;
+}
+
+.world-class-h2 {
+  color: #e7816b;
+  text-align: center;
+  font-size: 32px;
+}
+
+.world-class-talent-text {
+  background-color: #FDF3F0;
+  margin-top: -5px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.locations-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.location-img {
+  display: block ;
+  margin: 0 auto;
+}
+
+.location-link-container {
+  margin: auto;
+  width: 75%;
+  height: 350px ;
+}
+
+.location-h3 {
+  font-size: 20px;
+  padding:15px;
+}
+.location-btn {
+  width: fit-content;
+  display: block;
+  margin: auto;
+  background-color: #e7816b;
+  font-size: 15px;
+  border-radius: 10px;
+  border:none;
+  padding: 10px;
+}
+
