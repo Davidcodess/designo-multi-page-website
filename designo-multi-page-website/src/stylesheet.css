@@ -518,3 +518,21 @@ INNER-PAGE STYLING BEGINS
   padding: 10px;
 }
 
+.location-list {
+display: flex;
+flex-direction: column;
+margin: auto;
+text-align: center;
+font-size: 15px;
+margin-top: 7px;
+}
+
+.office-info {
+  color: black;
+  margin-bottom:7px ;
+}
+
+strong {
+  font-size: 16px;
+
+}
