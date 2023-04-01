@@ -12,10 +12,10 @@
   /* homepage stying starts here */
 
   nav {
-    width:85%;
+    width:90%;
     height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
     text-align: center;
     align-items:center ;
@@ -23,39 +23,84 @@
     padding-bottom: 30px; 
   }
   
+  .logo-container {
+    display: flex;
+    justify-content: start;
+    left: 25px;
+    align-items: center;
+  }
+  .hamburger-navbar {
+    height: 20px;
+    width: 25px;
+    top: 35px;
+    background-color:transparent;
+    right: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bar {
+    background-color: black;
+    height: 4px;
+    border-radius: 10px
+  }
+
+  .dropDownBtn {
+    background-color: transparent;
+    border: none;
+  }
   .nav-link {
     color: black;
     text-decoration: none;
   } 
 
+  .oval-container {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: conic-gradient(from 90deg at 50% 50%, rgba(231, 129, 107, 0.0001) 0deg, #E7816B 359.74deg, rgba(231, 129, 107, 0.0001) 360deg);
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+  }
 
-  .brandLogo {
+  .brandLogo-a {
     text-decoration: none;
     color: #333136;
+    font-size: 28px;
+    padding-left: 30px;
+    margin: auto;
   }
+
+
   .nav-btn {
     background-color: transparent;
     border: 0;
     text-align: center;
     font-size: 14px;
     color: #333136;
+  }
+
+  .nav-btn-hidden-container {
+    display: none;
     
+  }
+
+  .contact-link {
+    color: black;
 
   }
-.contact-link {
-  color: black;
-
-}
   .awardWinningSection {
  
     display:flex;
     flex-direction: column;
     color:#ffffff ;
     background-color:#e7816b;
-    border-radius: 25px;
     height: max-content;
     padding-top: 20px;
-    width: 95%;
+  
     margin: auto;
   }
 

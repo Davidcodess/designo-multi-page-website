@@ -11,11 +11,28 @@
 </head>
 <body>
   <nav>
-  <a class='brandLogo' href="index.html">DESIGNO </a>
+    <div class="logo-container">
+      <div class="oval-container"></div>
+        <a class='brandLogo-a' href="index.html">DESIGNO </a>
+    </div>
+   
     <div class="nav-btn-container">
-      <button class="nav-btn"><a class="nav-link" href="about.html">Our Company</a></button>
-      <button class="nav-btn"><a class="nav-link" href="locations.html">Locations</a></button>
-      <button class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></button>
+      <button onclick="myfunction()" class="dropDownBtn">
+
+        <a href="#" class="hamburger-navbar">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </a>
+      </button>
+      
+      <!-- these nav buttons are not displayed unless above 600px -->
+      <div class="nav-btn-hidden-container">
+        <button class="nav-btn"><a class="nav-link" href="about.html">Our Company</a></button>
+        <button class="nav-btn"><a class="nav-link" href="locations.html">Locations</a></button>
+        <button class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></button>
+      </div>
+
     </div>
   </nav> 
  
