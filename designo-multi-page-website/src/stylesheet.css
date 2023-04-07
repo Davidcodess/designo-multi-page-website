@@ -379,7 +379,7 @@
   font-size: 24px;
   float: left;
   text-align: center;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #333136;
   width: 80%;
   padding-bottom: 20px;
   
@@ -665,4 +665,113 @@ input,textarea {
 }
 #contact-footer-nav {
   margin-top: 20px;
+}
+
+
+/* ----------------
+Media query for tablet begins here 
+---------------- */
+
+@media screen and (min-width:560px) {
+
+  .awardWinningSection {
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .frame-png {
+    width: 300px;
+  }
+
+  .iphone-img {
+    width: 305px;
+  }
+
+  .Frame {
+    width: auto;
+  }
+
+.homepage-projects-section {
+  width: 100%;
+}
+.homepage-projects-container,.homepage-projects-container-2,.homepage-projects-container-3 {
+  width: 95%;
+}
+
+.about-us-homepage-container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  flex-wrap: nowrap; 
+  margin-bottom: 50px;
+}
+.homepage-about-us-icon {
+  margin: unset;
+}
+#passionate-svg,#resourceful-svg,#friendly-svg {
+  height:180px;
+  width:180px;
+  float:left;
+  margin: unset;
+}
+
+p {
+  text-align: left;
+  margin: unset;
+  width: auto;
+
+}
+.about-us-homepage-text {
+  height: 120px;
+  float: right;
+  margin: unset;
+  margin-left: 30px;
+}
+h4 {
+  text-align: left;
+}
+
+.lets-talk-p {
+text-align: center;
+margin: auto;
+width: 70%;
+margin-bottom: 20px;
+}
+
+.footer-nav {
+  flex-direction: row;
+  border-bottom: 1px solid #333136;
+  width: 85%;
+}
+
+.footer-h1 {
+  border-bottom: none;
+}
+.footer-nav-btn-container {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.footer-h1 {
+  width: fit-content;
+}
+
+.footer-nav-btn-container {
+  margin: unset;
+}
+
+.footer-bottom-container {
+  flex-wrap: nowrap;
+  width: 85%;
+}
+.footer-info-container {
+  display: flex;
+}
+
+.footer-contact {
+  width: 200px;
+  text-align: left;
+}
+
 }
