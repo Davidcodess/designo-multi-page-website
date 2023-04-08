@@ -764,14 +764,26 @@ margin-bottom: 20px;
 .footer-bottom-container {
   flex-wrap: nowrap;
   width: 85%;
+  align-items: flex-end;
 }
 .footer-info-container {
   display: flex;
 }
 
 .footer-contact {
-  width: 200px;
+  width: 170px;
   text-align: left;
+  margin-bottom: unset;
+}
+.footer-icon-container {
+  display: flex;
+  
+}
+.footer-icon-container {
+  height: fit-content;
+}
+.social-footer-btn {
+  height: 20px;
 }
 
 }
