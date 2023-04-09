@@ -9,13 +9,30 @@
   <title> Designo - Web Design</title>
 </head>
 <nav>
-  <a class='brandLogo' href="index.html">DESIGNO </a>
-    <div class="nav-btn-container">
+  <div class="logo-container">
+    <div class="oval-container"></div>
+      <a class='brandLogo-a' href="index.html">DESIGNO </a>
+  </div>
+ 
+  <div class="nav-btn-container">
+    <button onclick="myfunction()" class="dropDownBtn">
+
+      <a href="#" class="hamburger-navbar">
+        <span class="bar"> </span>
+        <span class="bar"> </span>
+        <span class="bar"> </span>
+      </a>
+    </button>
+    
+    <!-- these nav buttons are not displayed unless above 600px -->
+    <div class="nav-btn-hidden-container">
       <button class="nav-btn"><a class="nav-link" href="about.html">Our Company</a></button>
       <button class="nav-btn"><a class="nav-link" href="locations.html">Locations</a></button>
       <button class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></button>
     </div>
-  </nav> 
+
+  </div>
+</nav> 
  
   
   <section class="service-header-container">
@@ -32,60 +49,72 @@
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-express.jpg" alt="Express Project">
       <div class="project-text">
-        <h2 class="project-title"> EXPRESS </h2>
-        <p class="project-p">
-        A multi-carrier shipping website for ecommerce businesses
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> EXPRESS </h2>
+          <p class="project-p">
+          A multi-carrier shipping website for ecommerce businesses
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-transfer.jpg" alt="Transfer Project">
       <div class="project-text">
-        <h2 class="project-title"> TRANSFER </h2>
-        <p class="project-p">
-        Site for low-cost money transfers and sending money within seconds
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> TRANSFER </h2>
+          <p class="project-p">
+          Site for low-cost money transfers and sending money within seconds
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-photon.jpg" alt="Photon Project">
       <div class="project-text">
-        <h2 class="project-title"> PHOTON </h2>
-        <p class="project-p">
-        A state-of-the-art music player with high-resolution audio and DSP effects
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> PHOTON </h2>
+          <p class="project-p">
+          A state-of-the-art music player with high-resolution audio and DSP effects
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-builder.jpg" alt="Builder Project">
       <div class="project-text">
-        <h2 class="project-title"> BUILDER </h2>
-        <p class="project-p">
-        Connects users with local contractors based on their location
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> BUILDER </h2>
+          <p class="project-p">
+          Connects users with local contractors based on their location
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-blogr.jpg" alt="Photon Project">
       <div class="project-text">
-        <h2 class="project-title"> BLOGR </h2>
-        <p class="project-p">
-        Blogr is a platform for creating an online blog or publication
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> BLOGR </h2>
+          <p class="project-p">
+          Blogr is a platform for creating an online blog or publication
+          </p>
+        </div>
       </div>
     </div>
 
     <div class="project-showcase-container">
       <img class="project-img" src="./assets/web-design/desktop/image-camp.jpg" alt="Photon Project">
       <div class="project-text">
-        <h2 class="project-title"> CAMP </h2>
-        <p class="project-p">
-          Get expert training in coding, data, design, and digital marketing
-        </p>
+        <div class="project-text-container">
+          <h2 class="project-title"> CAMP </h2>
+          <p class="project-p">
+            Get expert training in coding, data, design, and digital marketing
+          </p>
+        </div>
       </div>
     </div>
 
@@ -131,12 +160,12 @@
     <div class="footer-nav">
       <h1 class="footer-h1">DESIGNO</h1>
       <div class="footer-nav-btn-container">
-        <button class="footer-btn">Our Company</button>
-        <button class="footer-btn">Locations</button>
-        <button class="footer-btn">Contact</button>
+        <button class="nav-btn"><a class="footer-link" href="about.html">Our Company</a></button>
+        <button class="nav-btn"><a class="footer-link" href="locations.html">Locations</a></button>
+        <button class="nav-btn"><a class="footer-link" href="contact.html">Contact</a></button>
       </div>
     </div>
-  
+    
     <div class="footer-bottom-container">
       <div class="footer-info-container">
         <div class="footer-contact">
@@ -144,24 +173,23 @@
           <p class="footer-p">3886 Wellington Street </p>
           <p class="footer-p">Toronto, Ontario M9C 3J5</p>
         </div>
-  
+        
         <div class="footer-contact">
           <h5> Contact Us (Central Office)</h5>
           <p class="footer-p"> P : +1 253-863-8967</p>
           <p class="footer-p"> M : contact@designo.co</p>
-        </div>
+        </div> 
       </div>
   
       <div class="footer-icon-container">
-        <button class="footer-icon-btn"> <img src="./assets/shared/desktop/icon-facebook.svg "></button>
-        <button class="footer-icon-btn"> <img src="./assets/shared/desktop/icon-youtube.svg "> </button>
-        <button class="footer-icon-btn"> <img src="./assets/shared/desktop/icon-twitter.svg "> </button>
-        <button class="footer-icon-btn"> <img src="./assets/shared/desktop/icon-pinterest.svg "> </button>
-        <button class="footer-icon-btn"> <img src="./assets/shared/desktop/icon-instagram.svg "> </button>
+        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-facebook.svg "></a> </button>
+        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-youtube.svg "></a> </button>
+        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-twitter.svg "></a> </button>
+        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-pinterest.svg "></a>  </button>
+        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-instagram.svg "></a>  </button>
       </div>
-    </div>
+    </div> 
   
   </footer>
-
 </body>
 </html>

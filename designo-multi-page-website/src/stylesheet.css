@@ -413,6 +413,7 @@
 
 .footer-bottom-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 75%;
   justify-content: space-evenly;
@@ -434,6 +435,7 @@
 .footer-icon-container {
   width: max-content;
   float:right ;
+  margin: auto;
   
 }
 .footer-icon-btn {
@@ -496,6 +498,7 @@ INNER-PAGE STYLING BEGINS
   flex-direction: column;
   margin: auto;
   margin-top: 85px;
+  margin-bottom: 85px;
 }
 .project-showcase-container {
   display: flex;
@@ -578,8 +581,16 @@ INNER-PAGE STYLING BEGINS
 .location-img {
   display: block ;
   margin: 0 auto;
+  background:linear-gradient(0deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 251%);
+  border-radius: 50%;
+  
 }
 
+.location-h2 {
+  color: #e7816b;
+  text-align: center;
+  font-size: 32px;
+}
 .location-link-container {
   margin: auto;
   width: 75%;
@@ -747,14 +758,12 @@ margin-bottom: 20px;
 
 .footer-h1 {
   border-bottom: none;
+  width: fit-content;
+  height: 35px;
 }
 .footer-nav-btn-container {
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-.footer-h1 {
-  width: fit-content;
 }
 
 .footer-nav-btn-container {
@@ -762,6 +771,7 @@ margin-bottom: 20px;
 }
 
 .footer-bottom-container {
+  flex-direction: row;
   flex-wrap: nowrap;
   width: 85%;
   align-items: flex-end;
@@ -777,13 +787,126 @@ margin-bottom: 20px;
 }
 .footer-icon-container {
   display: flex;
+  height: fit-content;
+  margin: unset;
   
 }
-.footer-icon-container {
-  height: fit-content;
-}
+
 .social-footer-btn {
   height: 20px;
 }
 
+/* --------------------
+Service pages tablet view:
+    WEB DESIGN
+    APP DESIGN
+    GRAPHIC DESIGN  
+-------------------- */
+
+.service-header-container {
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
 }
+
+.service-p {
+  margin: auto;
+  text-align: center;
+  width:70% ;
+}
+
+.project-showcase-container {
+  flex-direction: row;
+  height: 270px;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.project-img {
+  width: 50%;
+  height: 100%;
+ object-fit:fill;
+ border-radius: 10px 0px 0px 10px;
+}
+.project-text {
+  margin: unset;
+  border-radius:0px 10px 10px 0px ;
+}
+
+.project-p {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.project-text-container {
+  margin-top: 50px;
+}
+
+ .about-header-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+ }
+
+ .contact-img {
+  border-radius: 10px 10px 0px 0px;
+ }
+
+ #canada-map,#australia-map,#unitedKingdom-map {
+  margin-bottom: 20px;
+  border-radius: 10px 10px 0px 0px;
+ }
+
+ .about-text {
+  border-radius: 0px 0px 10px 10px;
+ }
+
+
+ .world-class-talent-text {
+  border-radius: 0px 0px 10px 10px;
+ }
+
+ #canada-contact-text,#uk-contact-text,#australia-contact-text {
+  display: flex;
+  width: 470px;
+  margin: auto;
+ }
+ 
+ .location-list {
+  text-align: left;
+ }
+ .location-h2-container {
+  width: 40%;
+  margin: auto;
+ }
+
+ #submit-btn {
+  float: right;
+ }
+
+ form {
+  padding-bottom: 50px;
+ }
+
+ #contact-form-container {
+  border-radius: 10px;
+ }
+
+ #contact-h1 {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  margin-top: 20px;
+ }
+
+ #contact-p {
+  text-align: left;
+  font-size: 15px;
+ }
+}
+
+
+
