@@ -883,6 +883,10 @@ Service pages tablet view:
   margin: auto;
  }
 
+ /* --------------------
+ contact page tablet styling
+ -------------------- */
+
  #submit-btn {
   float: right;
  }
@@ -905,6 +909,45 @@ Service pages tablet view:
  #contact-p {
   text-align: left;
   font-size: 15px;
+ }
+}
+
+@media screen and (min-width:900px) { 
+
+ .awardWinningSection {
+  flex-direction: row;
+  padding-top: 30px;
+  width: 85%;
+  margin: auto;
+ }
+
+ .awardWinningCustoms-container {
+  float: left;
+  width: 50%;
+ }
+
+ h1,.awardWinningCustoms-container-p {
+  text-align: left;
+  margin: unset;
+  width: 80%;
+  padding: 0;
+  padding-left: 30px;
+  margin-bottom: 30px;
+ }
+ .awardWinningCustoms-container-p {
+  width: 70%;
+ }
+ .Frame {
+  height: 380px;
+ }
+
+ .awardWinning-btn {
+  float: left;
+  margin-left: 30px;
+ }
+ 
+ .awardWinning-btn:hover {
+  background-color:#FFAD9B;
  }
 }
 
