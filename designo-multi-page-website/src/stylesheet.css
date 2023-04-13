@@ -1034,7 +1034,7 @@ desktop view @ 900px and above
  }
 
  .service-header-container {
-  width: 80%;
+  width: 85%;
   height: 152px;
   
  }
@@ -1054,12 +1054,18 @@ desktop view @ 900px and above
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly; 
-  width: 85%;
+  width: 81%;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 70px;
  }
+
  .project-showcase-container {
   flex-direction: column;
-  width: 300px;
+  width: 30%;
   height: max-content;
+  margin: unset;
+  margin: 12px;
  }
 
  .project-img {
