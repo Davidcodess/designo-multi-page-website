@@ -249,7 +249,7 @@
     font-weight: bold;
     width: fit-content;
     text-align: center;
-   
+    margin-top: 35px;  
   }
 
   span {
@@ -680,7 +680,7 @@ input,textarea {
 
 
 /* ----------------
-Media query for tablet begins here 
+Media query for tablet begins here -- above 560px-900px
 ---------------- */
 
 @media screen and (min-width:560px) {
@@ -754,12 +754,14 @@ margin-bottom: 20px;
   flex-direction: row;
   border-bottom: 1px solid #333136;
   width: 85%;
+  max-width: 1270px;
 }
 
 .footer-h1 {
   border-bottom: none;
   width: fit-content;
   height: 35px;
+  margin: unset;
 }
 .footer-nav-btn-container {
   flex-direction: row;
@@ -815,10 +817,17 @@ Service pages tablet view:
   width:70% ;
 }
 
+.link-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+
+}
 .project-showcase-container {
   flex-direction: row;
   height: 270px;
-  width: 100%;
+  width: 85%;
   margin: auto;
   margin-top: 30px;
 }
@@ -910,7 +919,18 @@ Service pages tablet view:
   text-align: left;
   font-size: 15px;
  }
+ .nav-btn-hidden-container {
+  display: contents;
+ }
+
+ .hamburger-navbar {
+  display: none;
+ }
 }
+
+/* ------------------------------
+desktop view @ 900px and above 
+------------------------------ */
 
 @media screen and (min-width:900px) { 
 
@@ -938,7 +958,7 @@ Service pages tablet view:
   width: 70%;
  }
  .Frame {
-  height: 380px;
+  height: 385px;
  }
 
  .awardWinning-btn {
@@ -949,6 +969,117 @@ Service pages tablet view:
  .awardWinning-btn:hover {
   background-color:#FFAD9B;
  }
+
+ .homepage-projects-section {
+  flex-direction: row;
+  width: 85%;
+
+
+ }
+ .homepage-projects-container {
+  background: url(./assets/home/desktop/image-web-design-large.jpg );
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 370px;
+ }
+
+ #homepage-projects-desktop-view {
+  width: 50%;
+  margin: auto;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+ }
+
+ .homepage-projects-container-2,.homepage-projects-container-3 {
+  height: 180px;
+  margin: auto;
+  width:100%
+ }
+
+ .homepage-projects-container-2 {
+  background: url(./assets/home/desktop/image-app-design.jpg);
+ }
+
+ .homepage-projects-container-3 {
+  background: url(./assets/home/desktop/image-graphic-design.jpg);
+ }
+
+ .homepage-project-text:hover {
+  color: #e7816b;
+ }
+
+
+ .body-container {
+  max-width: 1280px;
+  margin: auto;
+ }
+
+ .about-us-homepage-section {
+  width: 85%;
+  margin: auto;
+ }
+
+ nav {
+  width: 80%;
+ }
+
+ .nav-btn-hidden-container {
+  display: contents;
+ }
+
+ .hamburger-navbar {
+  display: none;
+ }
+
+ .service-header-container {
+  width: 80%;
+  height: 152px;
+  
+ }
+
+ .service-h1 {
+  margin: auto;
+  text-align: center;
+ }
+
+ .service-p {
+  font-size: 16px;
+  margin: auto;
+  margin-top: 40px;
+ }
+
+ .project-showcase-section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  width: 85%;
+ }
+ .project-showcase-container {
+  flex-direction: column;
+  width: 300px;
+  height: max-content;
+ }
+
+ .project-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px
+ }
+ .project-text {
+  border-radius: 0px 0px 10px 10px;
+}
+.link-section {
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.homepage-projects-container,.homepage-projects-container-2,.homepage-projects-container-3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 }
 
 
