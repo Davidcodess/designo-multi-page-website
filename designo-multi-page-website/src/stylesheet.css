@@ -85,6 +85,13 @@
     font-size: 14px;
     color: #333136;
   }
+  .nav-btn-footer {
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+  }
 
   .nav-btn-hidden-container {
     display: none;
