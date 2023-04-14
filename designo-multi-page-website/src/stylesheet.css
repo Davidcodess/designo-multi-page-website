@@ -56,6 +56,9 @@
     text-decoration: none;
   } 
 
+  button {
+    cursor: grab;
+  }
   .oval-container {
     position: absolute;
     height: 24px;
@@ -250,6 +253,7 @@
     width: fit-content;
     text-align: center;
     margin-top: 35px;  
+    cursor: grab;
   }
 
   span {
@@ -1077,14 +1081,25 @@ desktop view @ 900px and above
 }
 .link-section {
   flex-direction: row;
-  width: 60%;
+  width: 70%;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  margin-top: 70px;
 }
 
 .homepage-projects-container,.homepage-projects-container-2,.homepage-projects-container-3 {
   margin-left: 10px;
   margin-right: 10px;
+
+}
+#graphicdesign-webproject-container {
+  height: 180px;
+  width: 100%;
+}
+
+#appdesign-webproject-container {
+  height: 180px;
+  width: 100%;
 }
 }
 
