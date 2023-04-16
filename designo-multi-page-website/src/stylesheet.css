@@ -1108,6 +1108,51 @@ desktop view @ 900px and above
   height: 180px;
   width: 100%;
 }
+
+.about-header-container {
+  display: flex;
+  width: 85%;
+  height: max-content;
+  margin-bottom: 100px;
+}
+
+.contact-img {
+  height: 480px;
+  border-radius: 10px 0px 0px 10px;
+  width: 100%;
+
+}
+
+.about-text {
+  width: 50%;
+  margin: unset;
+  border-radius: 0px 10px 10px 0px;
+  padding: unset;
+  height:480px;
+
+}
+
+.world-class-talent-text {
+  width:70%;
+  margin: unset;
+  height: 480px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.world-class-h2 {
+  margin-top: 20px;
+}
+
+.service-p {
+  margin-top: 8px;
+  line-height: 2rem;
+  text-align: left;
+
+}
+
+
 }
 
 
