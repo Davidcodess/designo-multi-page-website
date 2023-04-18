@@ -1083,9 +1083,11 @@ desktop view @ 900px and above
   width: 100%;
   border-radius: 10px 10px 0px 0px
  }
+
  .project-text {
   border-radius: 0px 0px 10px 10px;
 }
+
 .link-section {
   flex-direction: row;
   width: 70%;
@@ -1114,22 +1116,35 @@ desktop view @ 900px and above
   width: 85%;
   height: max-content;
   margin-bottom: 100px;
+  flex-direction: row-reverse;
+}
+
+#world-class-talent-container {
+  flex-direction: row;
+}
+
+.contact-image-container {
+  width: 42%;
 }
 
 .contact-img {
   height: 480px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 10px 10px 0px;
   width: 100%;
 
 }
 
+#world-class-talent-img {
+  border-radius: 10px 0px 0px 10px;
+}
+
 .about-text {
-  width: 50%;
+  width: 58%;
   margin: unset;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 0px 0px 10px;
   padding: unset;
   height:480px;
-
+  
 }
 
 .world-class-talent-text {
@@ -1138,7 +1153,14 @@ desktop view @ 900px and above
   height: 480px;
   padding-top: 0px;
   padding-bottom: 0px;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+#world-class-talent-container-one {
+  width: 58%;
   border-radius: 0px 10px 10px 0px;
+
 }
 
 .world-class-h2 {
@@ -1146,14 +1168,34 @@ desktop view @ 900px and above
 }
 
 .service-p {
-  margin-top: 8px;
-  line-height: 2rem;
+  margin-top: 5px;
+  line-height: 1.5rem;
   text-align: left;
 
 }
 
-
+.service-h1 {
+  margin-top: 10px;
 }
+
+
+/* ---------------------------------- 
+   --Location desktop styling --
+---------------------------------- */
+
+
+#canada-desktop-location-container {
+  width: 70%;
+  height: 300px;
+  align-items: ;
+}
+
+#canada-map {
+  height: 300px;
+  margin-left: 10px;
+}
+}
+
 
 
 
