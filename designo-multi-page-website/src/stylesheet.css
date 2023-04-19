@@ -1184,15 +1184,33 @@ desktop view @ 900px and above
 ---------------------------------- */
 
 
-#canada-desktop-location-container {
-  width: 70%;
+#canada-desktop-location-container,#australia-desktop-location-container,#uk-desktop-location-container {
+  width: 80%;
   height: 300px;
-  align-items: ;
+  border-radius: 10px;
 }
 
-#canada-map {
+#australia-desktop-section {
+  flex-direction: row;
+}
+
+#canada-map,#unitedKingdom-map {
   height: 300px;
-  margin-left: 10px;
+  margin-left: 20px; 
+  border-radius: 10px
+}
+#australia-map{
+  height: 300px;
+  border-radius: 10px;
+}
+
+#australia-desktop-location-container {
+  margin-left: 20px;
+}
+
+
+
+
 }
 }
 
