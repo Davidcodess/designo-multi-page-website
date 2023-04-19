@@ -621,6 +621,7 @@ INNER-PAGE STYLING BEGINS
   border-radius: 10px;
   border:none;
   padding: 10px;
+  color: #ffffff;
 }
 
 .location-list {
@@ -1208,11 +1209,25 @@ desktop view @ 900px and above
   margin-left: 20px;
 }
 
+#contact-form-container {
+  width: 100%;
+  height: max-content;
+  padding-bottom: 20px;
+}
 
+#contact-location-section {
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.location-btn:hover {
+  background-color: #FFAD9B;
+}
 
 
 }
-}
+
 
 
 
