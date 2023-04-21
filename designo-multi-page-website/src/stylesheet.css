@@ -99,7 +99,13 @@
   }
 /* -- End of navbar styling -- */
   .contact-link {
+    background-color: #ffffff;
+    padding: 15px;
     color: black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: fit-content;
 
   }
   
@@ -250,17 +256,17 @@
     margin: auto;
     font-size: 23px;
     font-weight: normal;
+    margin-bottom: 20px;
   }
 
   .homepage-project-btn {
     background-color: transparent;
     border: 0;
     color: #ffffff;
-    font-weight: bold;
     width: fit-content;
     text-align: center;
-    margin-top: 35px;  
-    cursor: grab;
+    font-size: 14px;
+    font-weight: 700;
   }
 
   span {
@@ -356,19 +362,21 @@
  }
 
  .getInTouchBtn {
-  width: 152px;
-  height: 60px;
+  color: black;
   font-size: 16px;
   border-radius: 15px;
   border: none;
   display: block;
   margin: 0 auto;
+  background-color: white;
+  width: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
  }
 
- .getInTouchcontactBtn {
-  color: black;
-  text-decoration: none;
- }
+
 
  footer {
   background-color: #1d1c1e;
@@ -415,6 +423,7 @@
 .footer-link {
   color: white;
   font-size: 16px;
+  padding-left: 5px;
 }
 
 .footer-btn {
