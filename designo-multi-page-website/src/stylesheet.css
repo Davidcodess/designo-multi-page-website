@@ -84,7 +84,9 @@
     text-align: center;
     font-size: 14px;
     color: #333136;
+    padding-right: 5px;
   }
+
   .nav-btn-footer {
     background-color: transparent;
     border: 0;
@@ -93,10 +95,6 @@
     color: #ffffff;
   }
 
-  .nav-btn-hidden-container {
-    display: none;
-    
-  }
 /* -- End of navbar styling -- */
   .contact-link {
     background-color: #ffffff;
@@ -456,6 +454,7 @@
  
 }
 
+
 .footer-icon-container {
   width: max-content;
   float:right ;
@@ -468,6 +467,7 @@
   background-color: transparent;
   border: none;
   margin-top: 5px;
+  padding-left: 10px;
 }
 
 .footer-p {
@@ -945,7 +945,9 @@ Service pages tablet view:
   font-size: 15px;
  }
  .nav-btn-hidden-container {
-  display: contents;
+  display: flex;
+  width: max-content;
+  font-size: 14px;
  }
 
  .hamburger-navbar {
@@ -1050,9 +1052,6 @@ desktop view @ 900px and above
   width: 80%;
  }
 
- .nav-btn-hidden-container {
-  display: contents;
- }
 
  .hamburger-navbar {
   display: none;
