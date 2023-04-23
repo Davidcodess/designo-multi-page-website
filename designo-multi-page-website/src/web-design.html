@@ -10,31 +10,18 @@
 </head>
 <body>
   <div class="body-container">
-  <nav>
-  <div class="logo-container">
-    <div class="oval-container"></div>
-      <a class='brandLogo-a' href="index.html">DESIGNO </a>
-  </div>
- 
-  <div class="nav-btn-container">
-    <button onclick="myfunction()" class="dropDownBtn">
-
-      <a href="#" class="hamburger-navbar">
-        <span class="bar"> </span>
-        <span class="bar"> </span>
-        <span class="bar"> </span>
-      </a>
-    </button>
-    
-    <!-- these nav buttons are not displayed unless above 600px -->
-    <div class="nav-btn-hidden-container">
-      <button class="nav-btn"><a class="nav-link" href="about.html">Our Company</a></button>
-      <button class="nav-btn"><a class="nav-link" href="locations.html">Locations</a></button>
-      <button class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></button>
-    </div>
-
-  </div>
-</nav> 
+    <nav>
+      <div class="logo-container">
+        <div class="oval-container"></div>
+          <a class='brandLogo-a' href="index.html">DESIGNO </a>
+      </div>
+  
+      <div class="nav-btn-hidden-container">
+        <a class="nav-btn" href="about.html">Our Company</a>
+        <a class="nav-btn" href="locations.html">Locations</a>
+        <a class="nav-btn" href="contact.html">Contact</a>
+      </div>
+    </nav>
  
   
   <section class="service-header-container">
@@ -125,10 +112,8 @@
   <div class="homepage-projects-container-2">
     <div class="homepage-project-text">
       <h2>APP DESIGN</h2>
-      <a href="app-design.html">
-        <button class="homepage-project-btn"> 
+      <a  class="homepage-project-btn" href="app-design.html"> 
         VIEW PROJECTS <span> > </span>
-        </button>
       </a>
     </div>
   </div>
@@ -136,10 +121,8 @@
   <div class="homepage-projects-container-3">
     <div class="homepage-project-text">
       <h2>GRAPHIC DESIGN</h2>
-      <a href="graphic-design.html">
-        <button class="homepage-project-btn"> 
+      <a  class="homepage-project-btn" href="graphic-design.html"> 
         VIEW PROJECTS <span> > </span>
-        </button>
       </a>
     </div>
   </div>
@@ -152,48 +135,71 @@
       <p class="lets-talk-p">Ready to take it to the next level? Contact us today and find out how our expertise can help
         your business grow.
       </p>
-      <a href="contact.html">
-      <button class="getInTouchBtn">Get in touch</button>
+      <a class="getInTouchBtn" href="contact.html">
+      Get in touch
       </a>
   
     </div>
   
   </section>
 </div>
-  <footer>
-    <div class="footer-nav">
-      <h1 class="footer-h1">DESIGNO</h1>
-      <div class="footer-nav-btn-container">
-        <button class="nav-btn"><a class="footer-link" href="about.html">Our Company</a></button>
-        <button class="nav-btn"><a class="footer-link" href="locations.html">Locations</a></button>
-        <button class="nav-btn"><a class="footer-link" href="contact.html">Contact</a></button>
+ 
+<footer>
+  <div class="footer-nav">
+    <h1 class="footer-h1">DESIGNO</h1>
+    <div class="footer-nav-btn-container">
+      <div>
+        <a class="footer-link" href="about.html">Our Company</a>
       </div>
+     
+      <div>
+        <a class="footer-link" href="locations.html">Locations</a>
+      </div>
+
+      <div>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div>
+   
     </div>
-    
-    <div class="footer-bottom-container">
-      <div class="footer-info-container">
-        <div class="footer-contact">
-          <h5> Designo Central Office</h5>
-          <p class="footer-p">3886 Wellington Street </p>
-          <p class="footer-p">Toronto, Ontario M9C 3J5</p>
-        </div>
-        
-        <div class="footer-contact">
-          <h5> Contact Us (Central Office)</h5>
-          <p class="footer-p"> P : +1 253-863-8967</p>
-          <p class="footer-p"> M : contact@designo.co</p>
-        </div> 
-      </div>
+  </div>
   
-      <div class="footer-icon-container">
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-facebook.svg " alt="social logo"></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-youtube.svg " alt="social logo"></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-twitter.svg " alt="social logo"></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-pinterest.svg " alt="social logo"></a>  </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-instagram.svg " alt="social logo"></a>  </button>
+  <div class="footer-bottom-container">
+    <div class="footer-info-container">
+      <div class="footer-contact">
+        <h5> Designo Central Office</h5>
+        <p class="footer-p">3886 Wellington Street </p>
+        <p class="footer-p">Toronto, Ontario M9C 3J5</p>
       </div>
-    </div> 
-  
-  </footer>
+      
+      <div class="footer-contact">
+        <h5> Contact Us (Central Office)</h5>
+        <p class="footer-p"> P : +1 253-863-8967</p>
+        <p class="footer-p"> M : contact@designo.co</p>
+      </div> 
+    </div>
+
+    <div class="footer-icon-container">
+      <a class="footer-icon-btn" href="#">
+      <img class="social-footer-btn" src="./assets/shared/desktop/icon-facebook.svg " alt="social logo">
+      </a>
+
+      <a class="footer-icon-btn" href="#">
+         <img class="social-footer-btn" src="./assets/shared/desktop/icon-youtube.svg " alt="social logo"> 
+      </a>
+      <a class="footer-icon-btn" href="#">
+         <img class="social-footer-btn" src="./assets/shared/desktop/icon-twitter.svg " alt="social logo"> 
+      </a>
+      <a class="footer-icon-btn" href="#">
+         <img class="social-footer-btn" src="./assets/shared/desktop/icon-pinterest.svg " alt="social logo">  
+      </a>
+      
+      <a class="footer-icon-btn" href="#">
+         <img class="social-footer-btn" src="./assets/shared/desktop/icon-instagram.svg " alt="social logo"> 
+      </a>
+    </div>
+  </div>
+
+</footer>
+      
 </body>
 </html>

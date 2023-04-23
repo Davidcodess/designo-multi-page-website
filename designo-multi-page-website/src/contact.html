@@ -10,31 +10,18 @@
 </head>
 <body>
   <div class="body-container">
-  <nav>
-    <div class="logo-container">
-      <div class="oval-container"></div>
-        <a class='brandLogo-a' href="index.html">DESIGNO </a>
-    </div>
-   
-    <div class="nav-btn-container">
-      <button onclick="myfunction()" class="dropDownBtn">
-
-        <a href="#" class="hamburger-navbar">
-          <span class="bar"> </span>
-          <span class="bar"> </span>
-          <span class="bar"> </span>
-        </a>
-      </button>
-      
-      <!-- these nav buttons are not displayed unless above 600px -->
-      <div class="nav-btn-hidden-container">
-        <button class="nav-btn"><a class="nav-link" href="about.html">Our Company</a></button>
-        <button class="nav-btn"><a class="nav-link" href="locations.html">Locations</a></button>
-        <button class="nav-btn"><a class="nav-link" href="contact.html">Contact</a></button>
+    <nav>
+      <div class="logo-container">
+        <div class="oval-container"></div>
+          <a class='brandLogo-a' href="index.html">DESIGNO </a>
       </div>
-
-    </div>
-  </nav> 
+  
+      <div class="nav-btn-hidden-container">
+        <a class="nav-btn" href="about.html">Our Company</a>
+        <a class="nav-btn" href="locations.html">Locations</a>
+        <a class="nav-btn" href="contact.html">Contact</a>
+      </div>
+    </nav>
   
   <section class="about-header-container">
     <div class="about-text" id="contact-form-container">
@@ -109,13 +96,23 @@
   </section>
   </div>
   
+
   <footer>
-    <div class="footer-nav" id="contact-footer-nav">
+    <div class="footer-nav">
       <h1 class="footer-h1">DESIGNO</h1>
       <div class="footer-nav-btn-container">
-        <button class="nav-btn"><a class="footer-link" href="about.html">Our Company</a></button>
-        <button class="nav-btn"><a class="footer-link" href="locations.html">Locations</a></button>
-        <button class="nav-btn"><a class="footer-link" href="contact.html">Contact</a></button>
+        <div>
+          <a class="footer-link" href="about.html">Our Company</a>
+        </div>
+       
+        <div>
+          <a class="footer-link" href="locations.html">Locations</a>
+        </div>
+  
+        <div>
+          <a class="footer-link" href="contact.html">Contact</a>
+        </div>
+     
       </div>
     </div>
     
@@ -135,14 +132,27 @@
       </div>
   
       <div class="footer-icon-container">
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-facebook.svg "></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-youtube.svg "></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-twitter.svg "></a> </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-pinterest.svg "></a>  </button>
-        <button class="footer-icon-btn"><a href=""> <img class="social-footer-btn" src="./assets/shared/desktop/icon-instagram.svg "></a>  </button>
+        <a class="footer-icon-btn" href="#">
+        <img class="social-footer-btn" src="./assets/shared/desktop/icon-facebook.svg " alt="social logo">
+        </a>
+  
+        <a class="footer-icon-btn" href="#">
+           <img class="social-footer-btn" src="./assets/shared/desktop/icon-youtube.svg " alt="social logo"> 
+        </a>
+        <a class="footer-icon-btn" href="#">
+           <img class="social-footer-btn" src="./assets/shared/desktop/icon-twitter.svg " alt="social logo"> 
+        </a>
+        <a class="footer-icon-btn" href="#">
+           <img class="social-footer-btn" src="./assets/shared/desktop/icon-pinterest.svg " alt="social logo">  
+        </a>
+        
+        <a class="footer-icon-btn" href="#">
+           <img class="social-footer-btn" src="./assets/shared/desktop/icon-instagram.svg " alt="social logo"> 
+        </a>
       </div>
-    </div> 
+    </div>
   
   </footer>
+        
 </body>
 </html>
