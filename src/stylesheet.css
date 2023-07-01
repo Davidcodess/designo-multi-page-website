@@ -667,14 +667,21 @@ label {
   color: #f2f2f2;
 
 }
+
 input {
   height: 40px;
 }
+
 input,textarea {
   width: 100%;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #ffffff ;
+  color: #ffffff;
+}
+
+textarea {
+  height: 200px;
 }
 
 #submit-btn {
@@ -703,6 +710,13 @@ input,textarea {
   margin-top: 20px;
 }
 
+.form-btn {
+  display: none;
+}
+
+.form-btn-ready {
+display: contents;
+}
 
 /* ----------------
 Media query for tablet begins here -- above 560px-900px
